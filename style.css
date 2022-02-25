@@ -1,0 +1,225 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+  
+  html {
+  scroll-behavior: smooth;
+  }
+
+  
+  .Contact-us a {
+    color: black;
+  }
+
+  .carousel-item h1 a {
+    color: white;
+  }
+
+  .navbar ul {
+    justify-content: space-evenly;
+  }
+  .tiles {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    flex-wrap: wrap;
+  }
+
+  .contact-us-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: auto auto 50px auto;
+  }
+
+  .contact-input {
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .contact-input input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: darkgray;
+  }
+  
+  .contact-input a {
+    width: 200px;
+    height: 40px;
+    background-color: #0d6efd;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: auto 10px;
+    font-size: 14px;
+  }
+  
+  .placeholder input {
+    background: white;
+    border: none;
+    text-align: center;
+    color: darkgray;
+    outline: none;
+  }
+   /* Client Section */
+   #client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: auto auto 50px auto;
+    padding: 50px 0px;
+  }
+  
+  .c-box-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+  }
+  
+  .client-box {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #0d6efd;
+    color: b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+  }
+  
+  .client-box img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: white;
+    object-fit: contain;
+    border: 1px solid white;
+  }
+  
+  .star {
+    display: flex;
+    margin: 10px 0px 0px 0px;
+  }
+  
+  .star i {
+    color: gold;
+    font-size: 20px;
+  }
+  
+  .client-box p {
+    color: white;
+    font-size: 14px;
+    margin: 10px 0px;
+    text-align: center;
+  }
+  
+  .client-box a {
+    width: 190px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0d6efd;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 1px solid white;
+  }
+  
+  .client-box a:hover {
+    color: white;
+    background-color: rgba(222, 220, 232, 0.2);
+    border: 1px solid white;
+  }
+  
+  /* Contact Us */
+  #contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: auto auto 50px auto;
+  }
+  
+  #contact h3 {
+    font-size: 32px;
+    margin: 20px;
+  }
+  
+  .contact-input {
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .contact-input input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: darkgray;
+  }
+  
+  .contact-input a {
+    width: 200px;
+    height: 40px;
+    background-color:#0d6efd;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: auto 10px;
+    font-size: 14px;
+  }
+  
+  /* Sponcer Section */
+  
+  .sponsors-section {
+    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .container-1 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .container-2 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .part-img {
+    width: 100px;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid lightgray;
+  }
+ 
